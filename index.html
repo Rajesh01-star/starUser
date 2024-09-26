@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star rating</title>
+  </head>
+  <body>
+    <div>
+      <section class="firstSection">
+        <h2>Overall Ratings</h2>
+        <ul class="starList" style="list-style: none">
+          <li class="listItem">*</li>
+          <li class="listItem">**</li>
+          <li class="listItem">***</li>
+          <li class="listItem">*****</li>
+          <li class="listItem">******</li>
+        </ul>
+      </section>
+      <section class="secondSection">
+        <h2>Feedback Form</h2>
+        <form>
+          <label for="name">Enter your name :</label>
+          <input type="text" id="name" name="name" />
+          <label for="rating">Choose your rating</label>
+          <select name="rating" id="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <button type="submit" class="submitBtn">SUBMIT</button>
+        </form>
+      </section>
+      <section class="sectionThree">
+        <h2>ALl Feedbacks</h2>
+        <ul class="nameList" style="list-style: none"></ul>
+      </section>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
